@@ -140,7 +140,7 @@
           <div class="social-links-panel">
             <h5>Follow Us</h5>
             <div class="social-icons">
-              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="Ryanwilkinson1400@yahoo.co.uk"><i class="bi bi-instagram"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
               <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
@@ -168,20 +168,16 @@
 
             <form name="contact"
       method="POST"
+      action="/thank-you.html"
       data-netlify="true"
       netlify-honeypot="bot-field"
       class="php-email-form">
 
-  <!-- Required hidden input for Netlify -->
   <input type="hidden" name="form-name" value="contact">
 
-  <!-- Spam protection (hidden) -->
-  <p style="display:none;">
-    <label>Don’t fill this out if you're human: 
-      <input name="bot-field">
-    </label>
-  </p>
-              
+  <!-- Honeypot spam field -->
+  <input type="hidden" name="bot-field">
+
   <div class="form-floating mb-3">
     <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required>
     <label for="nameInput">Full Name</label>
